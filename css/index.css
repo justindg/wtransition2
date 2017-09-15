@@ -1,6 +1,6 @@
 .password {
-  display:none;
-  /*display: inline-block;*/
+  /*display:none;*/
+  display: inline-block;
   padding: 50px;
   box-sizing: border-box;
   position: absolute;
@@ -22,7 +22,7 @@
 }
 
 .all {
-  /*display: none;*/
+  display: none;
 }
 
  @font-face {
