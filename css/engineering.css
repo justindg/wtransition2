@@ -1,0 +1,131 @@
+.accent {
+  overflow: auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  background-color: #eee;
+}
+
+.accent > div {
+  height: 10px;
+  float: left;
+}
+
+.accent_blue {
+  background-color: #54C2E8;
+  width: 30%;
+}
+
+.accent_gold {
+  background-color: #FFCC00;
+  width: 70%;
+}
+
+.banner_container {
+  position: relative;
+}
+
+.banner_carousel {
+
+  background-color: white;
+}
+
+.banner {
+  background-image: url('../img/banner_analytics.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 30px 30px 200px 30px;
+  box-sizing: border-box;
+}
+
+.banner_back {
+  margin-bottom: 50px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.banner_back:hover {
+  opacity: 1;
+}
+
+.banner_title1 {
+  color: white;
+  font-size: 3.5em;
+  line-height: 1em;
+  font-family: "RobotoThin", sans-serif;
+}
+
+.banner_title2 {
+  width: 60%;
+  color: white;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: "RobotoThin", "Arial", sans-serif;
+}
+
+.btn_hello {
+  background-color: darkorange;
+  padding: 15px 30px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+.banner_content {
+  position: absolute;
+  left: 200px;
+  bottom: 30px;
+}
+
+.footer {
+  text-align: right;
+  padding: 30px 20px;
+  background-color: #555;
+  font-family: "ProximaNovaBold", sans-serif;
+  color: white;
+}
+
+.pillars {
+  overflow: auto;
+  padding: 10px 150px;
+  box-sizing: border-box;
+}
+
+.pillar {
+  width: 30%;
+  float: left;
+  padding: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+  box-shadow: 0 2px 5px grey;
+  font-family: "Roboto";
+}
+
+.pillar_spacer {
+  width: 5%;
+  height: 50px;
+  float: left;
+}
+
+.pillar:hover {
+  background-color: #FFCC00;
+}
+
+.pillar_active {
+  background-color: #FFCC00;
+}
+
+.pillar .icon {
+  /*float: left;*/
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.pillar .title {
+  text-align: center;
+}
+
+.pillar .title > div {
+}

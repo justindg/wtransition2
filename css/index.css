@@ -1,0 +1,1008 @@
+.password {
+  display: inline-block;
+  padding: 50px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  /*background-color: #f8f8f8;*/
+}
+
+.password > input {
+  /*width: 100%;*/
+  text-align: center;
+  margin: 0 auto;
+  height: 40px;
+  width: 300px;
+  font-size: 1.2em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.all {
+  display: none;
+}
+
+ @font-face {
+   font-family: "Roboto";
+   src: url("fonts/Roboto-Regular.ttf");
+   /*src: url("fonts/HelveticaRoman.OTF");*/
+ }
+
+ @font-face {
+   font-family: "RobotoLight";
+   src: url("fonts/Roboto-Light.ttf");
+ }
+
+ @font-face {
+   font-family: "RobotoThin";
+   src: url("fonts/Roboto-Thin.ttf");
+ }
+
+ @font-face {
+   font-family: "AachenBoldPlain";
+   src: url("fonts/AachenBoldPlain.ttf");
+ }
+
+b {
+  font-family: "HelveticaBold";
+}
+
+html {
+    font-size: 1em;
+    font-family: "HelveticaLt", "Arial", sans-serif;
+
+}
+
+body {
+  background-color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+}
+
+a {
+  color: #107BBF;
+}
+
+@media screen and (min-width: 1400px) {
+    body {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    body {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    body {
+        font-size: 1.5em;
+    }
+}
+
+.center {
+  text-align: center;
+}
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+.cbagold {
+  color: #FFCC00;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+    font-size: 1.2em;
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+.header {
+  height: 80px;
+  overflow: hidden;
+}
+
+.header .menu {
+  line-height: 30px;
+  float: right;
+  padding: 25px 30px;
+  background-color: #FFCC00;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.header .menu:hover {
+  background-color: #ccc;
+}
+
+.logo_can {
+  float: left;
+  padding: 10px;
+}
+
+.statement {
+  text-align: center;
+  color: black;
+  overflow: auto;
+  /*padding: 10px 70px 10px 70px;*/
+  padding: 30px 0;
+  background-color: white;
+}
+
+.statement .title {
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+}
+
+.statement .description {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5em;
+  padding: 0 10%;
+  text-align: left;
+}
+
+.bluetext {
+  color: #107BBF;
+  font-family: "RobotoBold", sans-serif;
+}
+
+.blue-statement {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  color: #107BBF;
+  margin-bottom: 20px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+.modal-content {
+  position: relative;
+  overflow: auto;
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 45px 15px 15px 15px ;
+    border: 1px solid #888;
+    /*height: 80%;*/
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.modal-title {
+  font-family: "Roboto";
+  font-size: 1.2em;
+}
+
+.icon_close {
+  float: right;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 999;
+}
+
+.key_responsibilities {
+  padding-left: 20px;
+  margin: 0;
+}
+.key_responsibilities > li {
+  /*padding: 5px 0;*/
+}
+
+.ul_links {
+  margin: 10px 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.ul_links li {
+  padding: 5px 0;
+  color: #ccc;
+  font-family: "Roboto";
+}
+
+.ul_links li a {
+  color: #54C2E8;
+  cursor: pointer;
+}
+
+.ul_links li a:hover {
+  text-decoration: underline;
+}
+
+.accent {
+  overflow: auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  background-color: #eee;
+}
+
+.accent > div {
+  height: 10px;
+  float: left;
+}
+
+.accent_blue {
+  background-color: #54C2E8;
+  width: 30%;
+}
+
+.accent_gold {
+  background-color: #FFCC00;
+  width: 70%;
+}
+
+.banner_container {
+  position: relative;
+}
+
+.banner_carousel {
+
+  background-color: white;
+}
+
+#home {
+  display: block;
+  padding-bottom: 50px;
+}
+
+#impacted {
+  display: block;
+  padding-bottom: 20px;
+}
+
+#leaders {
+  display: none;
+  padding-bottom: 50px;
+}
+
+.banner_home {
+  background-image: url('../img/banner_home.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.banner_leaders {
+  background-image: url('../img/leaders_tile.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.banner_impacted {
+  background-image: url('../img/impacted_tile.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.banner_overlay {
+  background-color: rgba(88,88,88,0.4);
+  overflow: auto;
+  padding: 80px 80px 80px 80px;
+  box-sizing: border-box;
+  height: 300px;
+}
+
+.banner_back {
+  opacity: 0.5;
+  cursor: pointer;
+  height: 60px;
+  margin-bottom: 40px;
+  margin-right: 10px;
+}
+
+.banner_back:hover {
+  opacity: 1;
+}
+
+.banner_title1 {
+  color: white;
+  font-size: 3.5em;
+  line-height: 1em;
+  font-family: "RobotoThin", sans-serif;
+  height: 60px;
+  line-height: 60px;
+}
+
+.banner_title2 {
+  clear: both;
+  width: 60%;
+  color: white;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-top: 10px;
+  font-family: "RobotoLight", "Arial", sans-serif;
+}
+
+.btn_hello {
+  background-color: darkorange;
+  padding: 15px 30px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+.banner_content {
+  position: absolute;
+  left: 200px;
+  bottom: 30px;
+}
+
+.pathways {
+  padding: 10px 15%;
+  text-align: center;
+  overflow: auto;
+  background-color: white;
+}
+
+.pathway {
+  float: left;
+  width: 50%;
+  padding: 0px 30px;
+  box-sizing: border-box;
+  cursor: pointer;
+
+}
+
+.pathway_container {
+  overflow: auto;
+  box-shadow: 0 2px 2px #dddddd;
+}
+
+.pathway .image {
+  opacity: 0.5;
+}
+
+.pathway .image:hover {
+  opacity: 1;
+}
+
+.pathway .title {
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  overflow: auto;
+  text-align: left;
+}
+
+.pathway .text {
+  float: left;
+  font-size: 1.2em;
+}
+
+.pathway .icon {
+  float: right;
+}
+
+.pathway .more {
+  font-family: "Roboto";
+  clear: both;
+  text-align: left;
+  font-size: 0.8em;
+  margin-top: 20px;
+  padding: 10px;
+  color: #0096D6;
+}
+
+.leaders {
+  height: 180px;
+  background-color: #333;
+  background-image: url('../img/leaders_tile.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.impacted {
+  height: 180px;
+  background-color: #333;
+  background-image: url('../img/impacted_tile.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.footer {
+  text-align: right;
+  padding: 40px 20px;
+  background-color: #ddd;
+  font-family: "Proxima", sans-serif;
+  color: white;
+}
+
+.faq-button {
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.faq-button:hover {
+  color: #54C2E8;
+}
+
+.faq {
+  margin-top: 10px;
+}
+
+.faq > div {
+  text-align: left;
+}
+
+.faq-q {
+  font-family: "Roboto";
+  padding: 15px 15px;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.faq-a {
+  font-family: "RobotoLight";
+  display: none;
+  padding: 15px 15px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.faq-a p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.lb-header {
+  text-align: center;
+  font-size: 1.5em;
+  background-color: rgba(0, 194, 228, 0.09);
+  color: #107BBF;
+  padding: 15px 0;
+  margin: 0 0 30px 0;
+}
+
+.ldr-content {
+  text-align: center;
+}
+
+.ldr-p {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5em;
+  padding: 0 10%;
+  text-align: left;
+}
+
+.acc-container {
+  width: 100%;
+  padding: 0px 10% 20px 10%;
+  box-sizing: border-box;
+}
+
+.acc {
+  overflow: auto;
+  margin: 2px 0;
+}
+
+.acc-p {
+  padding: 10px 20px;
+  line-height: 1.5em;
+}
+
+.acc-p-accent {
+  text-decoration: underline;
+}
+
+.acc-title {
+  background-color: rgba(0, 194, 228, 0.09);
+  color: #107BBF;
+  overflow: auto;
+  padding: 15px 25px;
+  cursor: pointer;
+}
+
+.acc-title:hover {
+  background-color: rgba(0, 194, 228, 0.2);
+}
+
+.chevron {
+  float: left;
+  height: 30px;
+}
+
+.info {
+  float: left;
+  height: 24px;
+  line-height: 24px;
+  padding: 3px 3px;
+}
+
+.acc-sectiontitle {
+  font-family: "Roboto";
+  background-color: #FFCC00;
+  color: black;
+  overflow: auto;
+  padding: 15px 25px;
+}
+
+.acc-sectiontitletext {
+  float: left;
+  line-height: 30px;
+  margin-left: 20px;
+  font-size: 1em;
+}
+
+.acc-titletext {
+  float: left;
+  line-height: 30px;
+  margin-left: 20px;
+  font-size: 1em;
+}
+
+.acc-content {
+  display: none;
+  clear: both;
+  padding: 20px 30px;
+  text-align: left;
+  background-color: #f8f8f8;
+}
+
+.acc-ul {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5em;
+}
+
+.acc-ul li {
+  margin: 10px 0;
+}
+
+.ldr-table-wrapper {
+  padding: 0%;
+}
+
+.ldr-table {
+  width: 100%;
+  padding: 0px 0px;
+  box-sizing: border-box;
+  border-spacing: 30px 20px;
+}
+
+.ldr-table tbody tr {
+
+}
+
+.ldr-table tbody tr td {
+  text-align: center;
+  /*padding: 10px 40px;*/
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+  vertical-align: top;
+  width: 33.33%;
+  border: 1px solid #ddd;
+}
+
+.ldr-img {
+  text-align: center;
+  margin-bottom: 15px;
+  display: none;
+}
+
+.ldr-thing {
+  /*float: left;*/
+  text-align: left;
+  /*height: 30px;*/
+  padding: 10px;
+  background-color: #107BBF;
+  color: white;
+  font-size: 0.8em;
+}
+
+.ldr-ul {
+  font-size: 0.8em;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.ldr-ul li {
+  margin: 5px 0;
+}
+
+.ldr-thing-content {
+  text-align: left;
+  padding: 0 10px;
+}
+
+.ldr-thing-p {
+  padding: 10px 0;
+  font-size: 0.8em;
+}
+
+.links {
+  width: 100%;
+  border-spacing: 200px 0px;
+}
+
+.links-container {
+  box-sizing: border-box;
+  /*padding: 20px 10% 20px 10%;*/
+  /*background-color: #f8f8f8;*/
+  /*border-top: 1px solid #ddd;*/
+}
+
+.links tbody tr td {
+  padding: 0px;
+  box-sizing: border-box;
+  width: 50%;
+  background-color: white;
+  vertical-align: top;
+  /*box-shadow: 0px 2px 3px #dddddd;*/
+  border: 1px solid #ddd;
+}
+
+.link {
+  font-size: 1em;
+  padding: 20px;
+  color: white;
+  cursor: pointer;
+  box-sizing: 0px 2px 3px grey;
+}
+
+.link:hover {
+  background-color: #555;
+}
+
+.calendar {
+  width: 100%;
+  border-spacing: 20px 0px;
+}
+
+.calendar-container {
+  box-sizing: border-box;
+  padding: 0px 0 30px 0;
+  /*background-color: #f8f8f8;*/
+  /*border-top: 1px solid #ddd;*/
+}
+
+.calendar {
+
+}
+
+.calendar tbody tr td {
+  padding: 0px;
+  box-sizing: border-box;
+  width: 33.33%;
+  vertical-align: top;
+  border: 1px solid #ddd;
+}
+
+.event-container {
+  /*box-shadow: 0px 2px 3px #dddddd;*/
+  overflow: auto;
+}
+
+.event-date {
+  background: #54C2E8;
+  font-size: 1em;
+  padding: 20px;
+  color: white;
+}
+
+.event-details {
+  padding: 20px;
+  background-color: white;
+}
+
+.event-link {
+  padding: 10px 20px;
+  text-decoration: underline;
+  color: #54C2e8;
+  background-color: white;
+}
+
+.section-header-icon {
+  margin-right: 10px;
+  height: 30px;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  line-height: 30px;
+  color: #0096D6;
+}
+
+.main-ul {
+  padding: 0 15%;
+  text-align: left;
+}
+
+.main-ul li {
+  margin: 10px 0;
+  line-height: 1.5em;
+}
+
+.redfont {
+  color: red;
+}
