@@ -1,5 +1,6 @@
 .password {
-  display: inline-block;
+  display:none;
+  /*display: inline-block;*/
   padding: 50px;
   box-sizing: border-box;
   position: absolute;
@@ -21,7 +22,7 @@
 }
 
 .all {
-  display: none;
+  /*display: none;*/
 }
 
  @font-face {
@@ -527,12 +528,12 @@ textarea {
 }
 
 #impacted {
-  display: block;
+  display: none;
   padding-bottom: 20px;
 }
 
 #leaders {
-  display: none;
+  display: block;
   padding-bottom: 50px;
 }
 
@@ -750,6 +751,14 @@ textarea {
   font-family: "Roboto", sans-serif;
   line-height: 1.5em;
   padding: 0 10%;
+  text-align: left;
+}
+
+.ldr-p-ul {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5em;
+  /*padding: 0 10%;*/
+  margin: auto 10%;
   text-align: left;
 }
 
